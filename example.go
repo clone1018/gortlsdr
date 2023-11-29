@@ -1,3 +1,4 @@
+//go:build ignore
 // +build ignore
 
 package main
@@ -11,7 +12,7 @@ import (
 	"sync"
 	"syscall"
 
-	rtl "github.com/jpoirier/gortlsdr"
+	rtl "github.com/clone1018/gortlsdr"
 )
 
 // UAT holds a device context.

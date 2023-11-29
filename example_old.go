@@ -1,3 +1,4 @@
+//go:build ignore
 // +build ignore
 
 package main
@@ -11,13 +12,13 @@ import (
 	"syscall"
 	"time"
 
-	rtl "github.com/jpoirier/gortlsdr"
+	rtl "github.com/clone1018/gortlsdr"
 	// "unsafe"
 )
 
 var sendPing = true
 
-//IQch async-read done signal
+// IQch async-read done signal
 var IQch = make(chan bool)
 
 // rtlsdrCb is used for asynchronous streaming. It's our
