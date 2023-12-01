@@ -12,7 +12,7 @@ import (
 	"sync"
 	"syscall"
 
-	rtl "github.com/clone1018/gortlsdr"
+	rtl "github.com/timmattison/gortlsdr"
 )
 
 // UAT holds a device context.

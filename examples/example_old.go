@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	rtl "github.com/clone1018/gortlsdr"
+	rtl "github.com/timmattison/gortlsdr"
 	// "unsafe"
 )
 
