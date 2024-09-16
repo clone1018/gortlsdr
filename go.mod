@@ -1,3 +1,3 @@
-module github.com/clone1018/gortlsdr
+module github.com/timmattison/gortlsdr
 
-go 1.18
+go 1.21
